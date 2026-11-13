@@ -1,0 +1,13 @@
+﻿figure,split,complexity,model_id,arm,accuracy,ci95_low,ci95_high,families,expected_tasks
+Fig1,test,simple,deepseek-v4.1-flash,direct,0.9583333333333334,0.8750000000000001,1.0,4,24
+Fig1,test,simple,deepseek-v4.1-flash,decompose,1.0,1.0,1.0,4,24
+Fig1,test,simple,deepseek-v4.1-flash,length_control,1.0,1.0,1.0,4,24
+Fig1,test,simple,qwen3.8-flash,direct,1.0,1.0,1.0,4,24
+Fig1,test,simple,qwen3.8-flash,decompose,1.0,1.0,1.0,4,24
+Fig1,test,simple,qwen3.8-flash,length_control,1.0,1.0,1.0,4,24
+Fig1,test,complex,deepseek-v4.1-flash,direct,1.0,1.0,1.0,12,72
+Fig1,test,complex,deepseek-v4.1-flash,decompose,1.0,1.0,1.0,12,72
+Fig1,test,complex,deepseek-v4.1-flash,length_control,0.9861111111111112,0.9583333333333334,1.0,12,72
+Fig1,test,complex,qwen3.8-flash,direct,1.0,1.0,1.0,12,72
+Fig1,test,complex,qwen3.8-flash,decompose,1.0,1.0,1.0,12,72
+Fig1,test,complex,qwen3.8-flash,length_control,1.0,1.0,1.0,12,72

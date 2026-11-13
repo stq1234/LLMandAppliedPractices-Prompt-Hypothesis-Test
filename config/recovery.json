@@ -1,0 +1,64 @@
+{
+  "api": {
+    "base_url": "https://maasapi.casdao.com/v1/chat/completions",
+    "timeout_seconds": 60,
+    "max_retries": 3,
+    "max_consecutive_task_failures": 8,
+    "max_concurrency": 4,
+    "post_budget_including_probes": 700,
+    "token_budget_including_probes": 450000,
+    "known_probe_posts": 3,
+    "known_probe_tokens": 352,
+    "known_probe_note": "3 chat-completions probes including the excluded GLM probe; /models inventory GET requests are not included",
+    "trust_env": false,
+    "connect_timeout_seconds": 5,
+    "read_timeout_seconds": 30
+  },
+  "models": [
+    {
+      "id": "qwen3.8-flash",
+      "request_extra": {
+        "enable_thinking": false
+      }
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "request_extra": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
+    }
+  ],
+  "arms": [
+    "direct",
+    "decompose",
+    "length_control"
+  ],
+  "temperature": 0.3,
+  "top_p": 1,
+  "max_tokens": 384,
+  "dev_repeats": [
+    17
+  ],
+  "test_repeats": [
+    17,
+    43
+  ],
+  "schedule_seed": 20261113,
+  "analysis": {
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 4317,
+    "useful_effect_threshold": 0.05,
+    "primary_contrasts": [
+      [
+        "decompose",
+        "direct"
+      ],
+      [
+        "decompose",
+        "length_control"
+      ]
+    ]
+  }
+}

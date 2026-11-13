@@ -1,0 +1,5 @@
+﻿figure,split,model_id,complexity,contrast,families_n,expected_sample_repeat_pairs,complete_sample_repeat_pairs,paired_response_coverage,samples_with_at_least_one_complete_pair,accuracy_difference,ci95_low,ci95_high,family_wins,family_ties,family_losses,leave_one_family_out_min,leave_one_family_out_max,useful_effect_threshold,reaches_useful_threshold,ci_lower_above_zero,primary_complex_test_contrast,estimate_pp,ci95_low_pp,ci95_high_pp
+Fig2,test,deepseek-v4.1-flash,complex,decompose-direct,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True,0.0,0.0,0.0
+Fig2,test,deepseek-v4.1-flash,complex,decompose-length_control,12,72,72,1.0,36,0.013888888888888886,0.0,0.04166666666666666,1,11,0,0.0,0.015151515151515148,0.05,False,False,True,1.3888888888888886,0.0,4.166666666666666
+Fig2,test,qwen3.8-flash,complex,decompose-direct,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True,0.0,0.0,0.0
+Fig2,test,qwen3.8-flash,complex,decompose-length_control,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True,0.0,0.0,0.0

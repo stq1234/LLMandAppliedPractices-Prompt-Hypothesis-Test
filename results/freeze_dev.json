@@ -1,0 +1,17 @@
+{
+  "phase": "before_dev",
+  "utc": "2026-11-13T08:36:10.312624+00:00",
+  "files": {
+    "data/dataset.jsonl": "79ba11f7de1c812d7a2a0f537748787df2c80237e29bc6e54e3c338215efd251",
+    "src/data.py": "49aa46028aae0f9b629ee3ac24bee419a9d90b2365bc219e2d227ae09bb89054",
+    "prompts/arms.json": "c8c1b181eac4c16e2da5822f458e6fec2d53b6a34514e6f998b9ab49a0d19ea5",
+    "config/experiment.json": "1b6ebb58fd2466fa9d8bd8c5cb1226c66f6cd553e317efe6837eaeb6ca0033ed",
+    "EXPERIMENT_PLAN.md": "43e9410403bb3ac4662be957b8bd20c7332efa942853dcdbeadd1cb79aa57375",
+    "src/runner.py": "42f4055ad46ba99a67e9d880823af6d4611d5545f6d3166376c3acd3279a190b",
+    "src/prompts.py": "693b45dc28c5ce23a5889e1dd224a87d6de32c70587a6833e515da7394da758c"
+  },
+  "data_audit": "20 families/60 examples independently checked; no semantic blockers",
+  "probe_posts": 3,
+  "probe_reported_tokens": 352,
+  "models_get_requests": 2
+}

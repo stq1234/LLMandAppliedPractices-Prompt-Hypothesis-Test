@@ -1,0 +1,66 @@
+{
+  "task_posts": 688,
+  "probe_posts": 3,
+  "total_chat_completion_posts": 691,
+  "post_budget": 700,
+  "post_budget_remaining": 9,
+  "inventory_get_requests_separately_reported": 4,
+  "probe_cost_source": "archived protocol-check responses",
+  "probe_usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 157,
+    "total_tokens": 352,
+    "cached_tokens": 0,
+    "reasoning_tokens": 95,
+    "records_with_usage": 3,
+    "usage_record_count": 3,
+    "records_by_model": {
+      "deepseek-v4-1-flash-261017": 1,
+      "glm-5.3-flash": 1,
+      "qwen3.8-flash": 1
+    }
+  },
+  "task_attempt_usage": {
+    "prompt_tokens": 163746,
+    "completion_tokens": 29608,
+    "total_tokens": 193354,
+    "cached_tokens": 40320,
+    "reasoning_tokens": 0,
+    "records_with_usage": 648,
+    "usage_record_count": 648,
+    "records_by_model": {
+      "deepseek-v4-1-flash-261017": 324,
+      "deepseek-v4.1-flash": 22,
+      "qwen3.8-flash": 342
+    }
+  },
+  "all_chat_completion_usage": {
+    "prompt_tokens": 163941,
+    "completion_tokens": 29765,
+    "total_tokens": 193706,
+    "cached_tokens": 40320,
+    "reasoning_tokens": 95,
+    "records_with_usage": 651,
+    "usage_record_count": 651,
+    "records_by_model": {
+      "deepseek-v4-1-flash-261017": 325,
+      "deepseek-v4.1-flash": 22,
+      "glm-5.3-flash": 1,
+      "qwen3.8-flash": 343
+    }
+  },
+  "task_attempt_status_counts": {
+    "ok": 648,
+    "retryable_error": 28,
+    "failed": 12
+  },
+  "task_http_status_counts": {
+    "200": 648,
+    "None": 40
+  },
+  "rmb_cost": {
+    "computed_cost_rmb": null,
+    "records_missing_input_or_output_usage": 40,
+    "basis": "No verified provider invoice or user-supplied endpoint rates; RMB cost is not estimated. Returned usage does not establish the billing of failed requests."
+  }
+}

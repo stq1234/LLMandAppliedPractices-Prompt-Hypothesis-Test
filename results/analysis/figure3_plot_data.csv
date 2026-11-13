@@ -1,0 +1,7 @@
+﻿figure,split,complexity,model_id,arm,total_tokens_successes,responses_received,tokens_per_success,p50_elapsed_seconds,p95_elapsed_seconds
+Fig3,test,complex,deepseek-v4.1-flash,direct,18578,72,258.02777777777777,1.4115635,1.6549997
+Fig3,test,complex,deepseek-v4.1-flash,decompose,23181,72,321.9583333333333,1.5171999999999999,1.74995365
+Fig3,test,complex,deepseek-v4.1-flash,length_control,23234,72,322.69444444444446,1.381618,1.7131234
+Fig3,test,complex,qwen3.8-flash,direct,19503,72,270.875,1.7835139999999998,2.9203169000000004
+Fig3,test,complex,qwen3.8-flash,decompose,24249,72,336.7916666666667,2.101886,3.0218910500000007
+Fig3,test,complex,qwen3.8-flash,length_control,23916,72,332.1666666666667,1.8028534999999999,3.1482051500000003

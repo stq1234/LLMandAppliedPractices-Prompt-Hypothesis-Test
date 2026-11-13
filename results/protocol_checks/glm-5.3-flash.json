@@ -1,0 +1,48 @@
+{
+  "payload": {
+    "model": "glm-5.3-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "协议检查：规则为“只有设备已断电且工单有效才允许维护，满足这两项即允许”。设备已断电，工单无效。只输出JSON：{\"decision\":\"ALLOW或DENY\",\"brief\":\"简短理由\"}。"
+      }
+    ],
+    "temperature": 0.3,
+    "top_p": 1,
+    "max_tokens": 384,
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "status": 200,
+  "elapsed_seconds": 4.810067200000049,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"decision\":\"DENY\",\"brief\":\"设备已断电，但工单无效，不满足允许条件。\"}",
+          "reasoning_content": "We need answer in Chinese? User asks protocol check. Need only JSON. Rule: \"只有设备已断电且工单有效才允许维护，满足这两项即允许\" meaning allow iff powered off and work order valid. Given powered off true, work order invalid false. Not both -> deny. Output JSON only. Need ensure no extra. {\"decision\":\"DENY\",\"brief\":\"设备已断电，但工单无效，不满足允许条件。\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1794557739,
+    "id": "20261113161535a694c5eb38864377",
+    "model": "glm-5.3-flash",
+    "object": "chat.completion",
+    "request_id": "20261113161535a694c5eb38864377",
+    "usage": {
+      "completion_tokens": 121,
+      "completion_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "prompt_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 186
+    }
+  }
+}

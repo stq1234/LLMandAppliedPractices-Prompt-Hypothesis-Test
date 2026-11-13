@@ -1,0 +1,17 @@
+﻿split,model_id,complexity,contrast,families_n,expected_sample_repeat_pairs,complete_sample_repeat_pairs,paired_response_coverage,samples_with_at_least_one_complete_pair,accuracy_difference,ci95_low,ci95_high,family_wins,family_ties,family_losses,leave_one_family_out_min,leave_one_family_out_max,useful_effect_threshold,reaches_useful_threshold,ci_lower_above_zero,primary_complex_test_contrast
+dev,deepseek-v4.1-flash,complex,decompose-direct,2,6,6,1.0,6,0.16666666666666666,0.0,0.3333333333333333,1,1,0,0.0,0.3333333333333333,0.05,True,False,False
+dev,deepseek-v4.1-flash,complex,decompose-length_control,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+dev,deepseek-v4.1-flash,simple,decompose-direct,2,6,6,1.0,6,0.16666666666666669,0.0,0.33333333333333337,1,1,0,0.0,0.33333333333333337,0.05,True,False,False
+dev,deepseek-v4.1-flash,simple,decompose-length_control,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+dev,qwen3.8-flash,complex,decompose-direct,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+dev,qwen3.8-flash,complex,decompose-length_control,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+dev,qwen3.8-flash,simple,decompose-direct,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+dev,qwen3.8-flash,simple,decompose-length_control,2,6,6,1.0,6,0.0,0.0,0.0,0,2,0,0.0,0.0,0.05,False,False,False
+test,deepseek-v4.1-flash,complex,decompose-direct,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True
+test,deepseek-v4.1-flash,complex,decompose-length_control,12,72,72,1.0,36,0.013888888888888886,0.0,0.04166666666666666,1,11,0,0.0,0.015151515151515148,0.05,False,False,True
+test,deepseek-v4.1-flash,simple,decompose-direct,4,24,24,1.0,12,0.04166666666666666,0.0,0.12499999999999997,1,3,0,0.0,0.055555555555555546,0.05,False,False,False
+test,deepseek-v4.1-flash,simple,decompose-length_control,4,24,24,1.0,12,0.0,0.0,0.0,0,4,0,0.0,0.0,0.05,False,False,False
+test,qwen3.8-flash,complex,decompose-direct,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True
+test,qwen3.8-flash,complex,decompose-length_control,12,72,72,1.0,36,0.0,0.0,0.0,0,12,0,0.0,0.0,0.05,False,False,True
+test,qwen3.8-flash,simple,decompose-direct,4,24,24,1.0,12,0.0,0.0,0.0,0,4,0,0.0,0.0,0.05,False,False,False
+test,qwen3.8-flash,simple,decompose-length_control,4,24,24,1.0,12,0.0,0.0,0.0,0,4,0,0.0,0.0,0.05,False,False,False

@@ -1,0 +1,36 @@
+{
+  "analyzed_splits": [
+    "dev",
+    "test"
+  ],
+  "expected_scored_tasks": 648,
+  "logged_attempt_rows": 688,
+  "unique_task_ids_in_log": 648,
+  "successful_unique_task_ids": 648,
+  "model_response_identifiers": {
+    "deepseek-v4.1-flash": [
+      "deepseek-v4-1-flash-261017"
+    ],
+    "qwen3.8-flash": [
+      "qwen3.8-flash"
+    ]
+  },
+  "strict_prompt_user_character_match": true,
+  "model_prespecified_rule": {
+    "deepseek-v4.1-flash": {
+      "complex_contrasts_meet_criteria": false,
+      "simple_no_observed_decrease_vs_both_baselines": true,
+      "model_supports_prespecified_retention_rule": false,
+      "interpretation": "does not meet the full prespecified rule; interpret each contrast and interval separately"
+    },
+    "qwen3.8-flash": {
+      "complex_contrasts_meet_criteria": false,
+      "simple_no_observed_decrease_vs_both_baselines": true,
+      "model_supports_prespecified_retention_rule": false,
+      "interpretation": "does not meet the full prespecified rule; interpret each contrast and interval separately"
+    }
+  },
+  "cross_model_consistent_support": false,
+  "interpretive_limit": "Held-out evaluation on small, model-assisted, independently reviewed synthetic rule families; results are protocol-specific and not a population-level confirmation.",
+  "costs_file": "D:\\北京大学\\硕士\\大语言模型与应用\\作业4.3_提示经验检验\\results\\analysis\\costs.json"
+}
